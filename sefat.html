@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>sefat to do apps</title>
+        <link rel="stylesheet" href="sefat.css">
+    </head>
+
+    <body>
+        <h1>Lets make the plan organized</h1>
+        
+        <!-- Live Date & Time Banner -->
+        <div id="current-clock">Loading current date & time...</div>
+
+        <h4>List of your task</h4>
+
+        <!-- Main Action Buttons -->
+        <div class="actions">
+            <button id="add-btn">+ Add New Task</button>
+            <button id="save-all-btn">Save & Organize</button>
+        </div>
+
+        <!-- Task List Container -->
+        <ul id="task-container" class="task-container">
+            <li class="list">
+                <textarea class="desc" placeholder="Type your text here..."></textarea>
+                <div class="date-time-group">
+                    <input class="date" type="date">
+                    <input class="time" type="time">
+                    <span class="days-left"></span>
+                </div>
+            </li>
+        </ul>
+
+        <script src="sefat.js"></script>
+    </body>
+</html>
