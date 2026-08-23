@@ -258,3 +258,16 @@ button:active {
   border-radius: 8px;
   min-height: 14px;
 }
+
+/* Delete button — smaller and quieter than the main action buttons */
+.delete-btn {
+  padding: 7px 10px;
+  font-size: 12px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.delete-btn:hover {
+  background: rgba(0, 0, 0, 0.85);
+  color: #fff;
+}
